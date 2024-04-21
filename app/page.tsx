@@ -14,7 +14,7 @@ interface Message {
 const initialMessages: Message[] = [
   {
     role: "assistant",
-    content: "언제쯤 밖에서 자유롭게 뛰어놀 수 있을까?",
+    content: "안녕, 나는 안네야.",
   },
   // 아래는 메시지 구조 예시입니다.
   // {
