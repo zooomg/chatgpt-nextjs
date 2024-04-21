@@ -7,7 +7,7 @@ export function MainNav() {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
-        <span className="inline-block font-bold">ChatGPT</span>
+        <span className="inline-block font-bold">Spiritus LAB</span>
       </Link>
       <nav className="flex gap-6">
         <Link
@@ -17,7 +17,7 @@ export function MainNav() {
             "cursor-not-allowed opacity-80"
           )}
         >
-          Home
+          안네 프랑크
         </Link>
       </nav>
     </div>
