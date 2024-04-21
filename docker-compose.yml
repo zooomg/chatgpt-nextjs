@@ -1,0 +1,17 @@
+version: "0.1.0"
+
+services:
+  dev:
+    container_name: chatgpt-nextjs
+    image: chatgpt-nextjs
+    command:
+      - /bin/sh
+      - -c
+      - |
+        cd /home/node
+        npm install --silent
+        npm run dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/home/node
